@@ -1,0 +1,59 @@
+What Is the Django ? What is Django used for?
+        Django is a web development framework for building websites and web applications using Python.
+    It provides a set of tools and features that make it easier to create web applications quickly and efficiently. 
+    Django handles common web development tasks like database management, URL routing, form handling, and user authentication, 
+    allowing developers to focus on building the unique features of application instead of reinventing the wheel. 
+    It follows the "Don't Repeat Yourself" (DRY) principle, promoting code reuse and maintainability.
+
+Who invented django?
+        Django was invented by Adrian Holovaty and Simon Willison in 2003 while working at a newspaper company called World Online. 
+    They created Django to help them build web applications quickly and efficiently for the newsroom.
+    Django was later released as an open-source project in 2005, allowing developers worldwide to use and contribute to its development. 
+    Since then, it has grown into a popular web development framework known for its simplicity, flexibility, and productivity-enhancing features.
+
+How to check Django version?
+    1- Open a command prompt or terminal window on your computer.
+    2- Type the following command and press Enter: python -m django --version
+    3- You will see the Django version displayed on the screen.
+
+Which Companies Use Django?
+        Many companies use Django for building their websites and web applications. 
+    Some notable examples include Instagram, which initially used Django to handle its massive photo-sharing platform, Pinterest, 
+    which relies on Django for its content-sharing site, and Spotify, which uses Django for various aspects of its music streaming service.
+    Additionally, companies like Disqus, Eventbrite, and Dropbox have also adopted Django for their web development needs.
+
+What are the skills required for becoming a Django Developer?
+        To become a Django developer, you will need strong Python programming skills, a solid understanding of web development concepts, 
+    proficiency in Django framework including models, views, templates, and forms, familiarity with databases and SQL, 
+    and knowledge of version control systems like Git. Problem-solving abilities, effective communication, 
+    and collaboration skills are also essential for success in this role.
+
+How to write Hello World in Django?
+To write "Hello World" in Django, start by setting up Django on your computer. 
+Create a new Django project and app using command line tools. 
+Define a URL route in the urls.py file of the project and create a view function in the app's views.py file that returns an HTTP response with the "Hello World" 
+message. Map the URL route to the view function. 
+Finally, run the Django development server and navigate to the specified URL in a web browser to see the "Hello World" message displayed on the webpage.
+
+some commands to help you:
+pip install virtualenv
+open project folder
+virtualenv venv 
+venv\Scripts\activate  
+venv/Scripts/deactivate.bat
+pip install Django
+django-admin startproject hrsystem or django-admin startproject hrsystem .
+python manage.py runserver or python manage.py runserver [portNo]
+python manage.py startapp company or django-admin startapp myapp
+
+py manage.py migrate
+
+py manage.py makemigrations
+
+python manage.py createsuperuser
+pip3 freeze > requirements.txt  
+
+py manage.py migrate
+http://127.0.0.1:8000/API/BranchesList?format=json
+rm -rif PTP_ayy
+pip install -r requirements.txt
